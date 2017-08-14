@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+<lst name="responseHeader">
+    <int name="status">0</int>
+    <int name="QTime">0</int>
+</lst>
+    <lst name="initFailures"/>
+    <lst name="status">
+        <lst name="cfxtest">
+            <str name="name">cfxtest</str>
+            <str name="instanceDir">/var/solr/data/cfxtest</str>
+            <str name="dataDir">/var/solr/data/cfxtest/data/</str>
+            <str name="config">solrconfig.xml</str>
+            <str name="schema">managed-schema</str>
+            <date name="startTime">2017-08-10T16:35:49.892Z</date>
+            <long name="uptime">144536026</long>
+            <lst name="index">
+                <int name="numDocs">11</int>
+                <int name="maxDoc">11</int>
+                <int name="deletedDocs">0</int>
+                <long name="indexHeapUsageBytes">-1</long>
+                <long name="version">6</long>
+                <int name="segmentCount">1</int>
+                <bool name="current">true</bool>
+                <bool name="hasDeletions">false</bool>
+                <str name="directory">org.apache.lucene.store.NRTCachingDirectory:NRTCachingDirectory(MMapDirectory@/var/solr/data/cfxtest/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@583d328; maxCacheMB=48.0 maxMergeSizeMB=4.0)</str>
+                <str name="segmentsFile">segments_2</str>
+                <long name="segmentsFileSizeInBytes">165</long>
+                <lst name="userData">
+                    <str name="commitTimeMSec">1502383039002</str>
+                </lst>
+                <date name="lastModified">2017-08-10T16:37:19.002Z</date>
+                <long name="sizeInBytes">3476</long>
+                <str name="size">3.39 KB</str>
+            </lst>
+        </lst>
+        <lst name="sfxtest">
+            <str name="name">sfxtest</str>
+            <str name="instanceDir">/var/solr/data/sfxtest</str>
+            <str name="dataDir">/var/solr/data/sfxtest/data/</str>
+            <str name="config">solrconfig.xml</str>
+            <str name="schema">managed-schema</str>
+            <date name="startTime">2017-08-08T16:10:10.093Z</date>
+            <long name="uptime">318875171</long>
+            <lst name="index"><int name="numDocs">16</int>
+                <int name="maxDoc">16</int>
+                <int name="deletedDocs">0</int>
+                <long name="indexHeapUsageBytes">-1</long>
+                <long name="version">27</long>
+                <int name="segmentCount">3</int>
+                <bool name="current">true</bool>
+                <bool name="hasDeletions">false</bool>
+                <str name="directory">org.apache.lucene.store.NRTCachingDirectory:NRTCachingDirectory(MMapDirectory@/var/solr/data/sfxtest/data/index lockFactory=org.apache.lucene.store.NativeFSLockFactory@583d328; maxCacheMB=48.0 maxMergeSizeMB=4.0)</str>
+                <str name="segmentsFile">segments_7</str>
+                <long name="segmentsFileSizeInBytes">289</long>
+                <lst name="userData">
+                    <str name="commitTimeMSec">1502288254646</str>
+                </lst>
+                <date name="lastModified">2017-08-09T14:17:34.646Z</date>
+                <long name="sizeInBytes">15478</long>
+                <str name="size">15.12 KB</str>
+            </lst>
+        </lst>
+    </lst>
+</response>

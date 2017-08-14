@@ -1,22 +1,9 @@
 import xml.etree.ElementTree as et
 
-root = et.parse('contents').getroot()
-for child in root:
-    print(child.items(),child.attrib,child.tag,child.get)
-    for subchild in child:
-        print("{0} is :{1}".format(subchild.get('name'),subchild.text))
-        for supersub in subchild:
-            print("{0} is :{1}".format(supersub.get('name'), supersub.text))
-            for supsup in supersub:
-                print("{0} is :{1}".format(supsup.get('name'), supsup.text))
-                for supsupsup in supsup:
-                    print(supsupsup.text)
-
-
-
-
-
-
-
-
-
+root = et.parse('nxml').getroot()
+for sub in root:
+    for sub1 in sub:
+        print("\n")
+        print(sub1.get('classname'))
+        for sub2 in sub1:
+            print("{0} is : {1}".format(sub2.get('name'),sub2.text))
